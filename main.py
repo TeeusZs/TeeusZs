@@ -19,4 +19,4 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-client.run('ODk3MTY5OTEyNTI1NjQ3ODcz.YWRwlw.GdJ2lcWJAbGEnLSFwnpzUX-8h3Q')
+client.run(${{ secrets.Token }})
